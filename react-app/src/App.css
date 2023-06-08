@@ -1,0 +1,47 @@
+.title{
+  text-align:center;
+  background-color: rgb(212, 154, 219);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body{
+background-image: url('https://images.unsplash.com/photo-1520410411446-44c453233260?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxpZ2h0JTIwcHVycGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60');
+}
+
+.carlist{
+  background-color: beige;
+  content: '\e8b7';
+}
+
+.kisumu{
+  background-color: beige;
+}
+.nairobi{
+  background-color: beige;
+}
+.mombasa{
+  background-color: beige;
+}
+
+.nav-link{
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 8px;
+  background-color: #eaeaea;
+  color: #333;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.nav-link:hover {
+  background-color: #ccc;
+}
+
+.active {
+  background-color: #333;
+  color: #fff;
+}
